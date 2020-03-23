@@ -1,11 +1,15 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700,900|Roboto+Condensed:400,600,700,900&display=swap");
 * {
   /* border:1px solid green; */
   font-size: 12px;
 }
 
 body {
-  background-color: #f4f5f7;
+  /* background-color: #f4f5f7; */
+}
+.n-icon {
+  width: 29px;
+  height: 29px;
 }
 
 .top-story {
@@ -114,6 +118,23 @@ a {
 .latest-news a {
   font-size: 1.5rem;
   margin-left: 1rem;
+}
+
+.newsletter div{
+  background-color: #f4f5f6;
+}
+
+.magazine-title {
+  background-color: red;
+  color: white;
+  width: 25%;
+  height: 2em;
+  font-weight: 900;
+}
+
+.second-magazine-title {
+  color: red;
+  font-weight: 900;
 }
 
 
