@@ -1,9 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed:400,600,700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /* border:1px solid green; */
+  font-size: 12px;
 }
 
-h1 {
-  color: red;
+body {
+  background-color: #f4f5f7;
 }
+
+.top-story {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+}
+
+a:hover {
+  text-decoration-color: red;
+  color: black;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-family: "Roboto Condensed";
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.opinion a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.opinion a {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.opinion {
+  border: none;
+  border-bottom: #cecece 1px solid;
+  padding: 0.5rem 0.5rem;
+  margin-top: 1rem;
+}
+.opinion img {
+  margin-right: 0.5rem;
+}
+
+.debate {
+  border-top: 5px solid red;
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.debate .card-img-left {
+  width: 10rem;
+}
+
+.debate .card-title {
+  margin-left: 1rem;
+}
+
+.blue-debate {
+  border-top: 5px solid dodgerblue;
+}
+
+.card-footer img {
+  width: 5rem;
+  position: relative;
+  bottom:20px
+}
+
+.card-footer {
+  margin-top: 2rem;
+  border-top: double;
+}
+.versus {
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.sponsor a {
+  font-size: large;
+  margin-left: 1em;
+  margin-top: 1em;
+  font-size: 1.5rem;
+}
+.more-stories {
+  padding-top: 1.5rem ;
+  padding-bottom: 1.5rem;
+  border-top: 0.3px solid #cecece;
+  border-bottom: 0.3px solid #cecece;
+}
+
+.latest-news {
+  padding-top: 1.5rem ;
+  padding-bottom: 1.5rem;
+  border-top: 0.3px solid #cecece;
+  border-bottom: 0.3px solid #cecece;}
+
+.latest-news a:hover {
+  color: red;
+  text-decoration: none;
+}
+.latest-news a {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+

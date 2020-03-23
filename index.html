@@ -1,12 +1,590 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Week Clone Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Condensed:400,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>First commit</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <div class="card top-story">
+                    <h5>TOP STORY</h5>
+                    <img class="card-img-top" src="./images/donald-trump.webp" alt="donald trump">
+                    <div class="card-block">
+                        <h4><a href="#">Trump Announces Activation of the National Guard in Worst-Hit COVID-19
+                                States</a></h4>
+                        <p>"The federal government has deployed hundreds of tons of supplies from our national stockpile
+                            to locations with the greatest need in order to assist in those areas," the president said
+                            Sunday.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <div class="card featured-story">
+                    <h5>FEATURED STORY</h5>
+                    <img class="card-img-top" src="./images/coronavirus.webp" alt="donald trump">
+                    <div class="card-block">
+                        <h4><a href="#">COVID-19 Pandemic Could Cost U.S. $7 Trillion, Professor Estimates</a></h4>
+                        <p>"Without vigorous steps, the CDC estimates the COVID-19 will infect 70 to 150 million
+                            Americans," Michael Hicks tells Newsweek. "This would have enormous economic costs."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <div class="card featured-story">
+                    <img class="card-img-top" src="./images/coronavirus-new-york-covid-19-china-iran-us.webp"
+                        alt="corona-virus-china">
+                    <div class="card-block">
+                        <h4><a href="#">Iran, China Predict More U.S. Coronavirus Pain and Push Conspiracy Theories</a>
+                        </h4>
+                        <p>Beijing and Tehran are engaging in a war of words with the United States, as all three
+                            nations battle COVID-19.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-5 col-lg-3">
+                <div class="card featured-story">
+                    <img class="card-img-top" src="./images/auto-workers-detroit.webp" alt="auto workers detroit">
+                    <div class="card-block">
+                        <h4><a href="#">Michigan's Unemployment Claims Surged 2,100 Percent in One Week</a></h4>
+                        <p>"Two weeks ago, we probably would not have believed we were going to be in this situation,"
+                            said Jeff Donofrio, director of Michigan's Department of Labor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-3">
+                <h5>OPINION</h5>
+                <div class="card d-flex flex-row opinion">
+                    <div class="card-img-left">
+                        <img src="./images/forman-andrew.webp" alt="Andrew Forman">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h5><a href="#">Coronavirus Is Corporations' Chance to Prove Their Worth to Communities </a>
+                            </h5>
+                            <h6>BY ANDREW FORMAN</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row opinion">
+                    <div class="card-img-left">
+                        <img src="./images/richard-rubenstein.webp" alt="Richard Rubenstein">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h5><a href="#">Bernie's Campaign Was All Policy. His Values Were a Better Rallying Cry</a>
+                            </h5>
+                            <h6>BY RICHARD E. RUBENSTEIN</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row opinion">
+                    <div class="card-img-left">
+                        <img src="./images/charlie-kirk.webp" alt="Cahrlie Kirk">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h5><a href="#">The Ethics of the Coronavirus Crisis Are Muddier Than You Think </a></h5>
+                            <h6>BY CHARLIE KIRK</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row opinion">
+                    <div class="card-img-left">
+                        <img src="./images/jack-brewster.webp" alt="Andrew Forman">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h5><a href="#">Joe Biden's Stutter Explains a Lot About How He Speaks. I Should Know </a>
+                            </h5>
+                            <h6>BY JACK BREWSTER</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12-col-lg-3">
+                <h5>THE DEBATE</h5>
+                <div class="card d-flex flex-row debate red-debate">
+                    <div class="card-img-left">
+                        <img src="./images/business-coronavirus.webp" class="img-fluid" alt="empty parking">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h3>
+                                <a href="#"> Coronavirus Is Killing Small Business.SBA Loans Can Provide a Lifeline</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <h6>BY AMI KASSAR</h6>
+                    <img src="./images/ami-kassar.webp" alt="Ami Kassar">
+                </div>
+
+                <div class="versus d-flex mx-auto justify-content-center align-items-center">
+                    <div>VS</div>
+                </div>
+
+                <div class="card d-flex flex-row debate blue-debate">
+                    <div class="card-img-left">
+                        <img src="./images/empty-restaurant.webp" class="img-fluid" alt="empty restaurant">
+                    </div>
+                    <div class="card-block">
+                        <div class="card-title">
+                            <h3>
+                                <a href="#"> Many Small Businesses Won't Survive Coronavirus. However Difficult, They
+                                    Must Try to Adapt</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center">
+                    <h6>BY LEVI KING</h6>
+                    <img src="./images/levi-king.webp" alt="Levi King">
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-5 col-lg-3 sponsor">
+
+                <div class="card top sponsor sponsored-1">
+                    <div class="card-block">
+                        <img class="card-img-top"
+                            src="https://d.newsweek.com/en/full/1567280/all-points-north-lodge.jpg?w=500&h=333&f=317680b645c813e7054428bff80f9d38"
+                            alt="donald trump">
+                        <div class="card-title">
+
+                            <h2><a class="d-block" href="#">Who Leads the Field in Dependency Treatment in 2020?
+                                    States</a></h2>
+                        </div>
+                        <div class="card-body">
+
+                            <p>When seeking guidance on beating an addiction, there are many things to consider. Where
+                                do
+                                you
+                                go to ensure that you will not just turn the corner, but keep carrying on down the right
+                                road
+                                for the rest of your life? Find out more.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card top sponsor sponsored-2">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1570615/nw-james-bond-banner-sponsored.jpg?w=500&h=333&f=547001b6968bad8dcee8cf938a4c68ed"
+                        alt="donald trump">
+                    <div class="card-block">
+                        <div class="card-title">
+
+                            <h4><a class="d-block" href="#">Newsweek James Bond Special Edition
+                                    States</a></h4>
+                        </div>
+                        <div class="card-body">
+
+                            <p>Agent 007 claimed a spot as the world’s coolest spy since Sean Connery brought him to
+                                life on
+                                the
+                                big screen. Explore Bond’s legacy with the Newsweek Special Edition, featuring
+                                behind-the-scenes
+                                photos from the films and your complete guide to every Bond Girl, villain and getaway
+                                car in
+                                the
+                                canon.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card top sponsor sponsored-3">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1568509/newsweek-amplify.png?w=500&h=333&f=98c0ebfc554597997a0de3bd6159812a"
+                        alt="donald trump">
+                    <div class="card-block">
+                        <div class="card-title">
+
+                            <h4></h4><a class="d-block" href="#">Newsweek AMPLIFY Launches Strategic Partnership
+                                Solutions for Brands</a></h4>
+                        </div>
+                        <div class="card-body">
+
+                            <p>Newsweek AMPLIFY, the company's independent business unit, has launched a new program to
+                                empower digital brands with comprehensive content marketing and advertising strategies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <h5>MORE STORIES</h5>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/times-square.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">U.S. Coronavirus Fatalities Hit 400, With 114 in New York</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                Major disaster declarations have been made across New York, California
+                                and Washington state, while several other states have issued "stay at home" orders in a
+                                bid
+                                to fight the ongoing outbreak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/india-coronavirus-march-2020.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">U.S. Now Has Second Largest Number of Coronavirus Cases Outside China</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                More countries have introduced travel restrictions in order to help curb the spread of
+                                the virus, including the United Arab Emirates, Spain and Singapore.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/coronavirus-nyse-trading-floor-closes.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">What You Need to Know About Filing for Unemployment</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                "New legislation will likely expand eligibility dramatically, so people who don't think
+                                they qualify right now, double-check," said Michele Evermore of the National Employment
+                                Law Project.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/amy-klobuchar-husband.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Amy Klobuchar Reveals Her Husband Tested Positive for Coronavirus</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                "He is exhausted and sick but a very strong and resilient person," the Minnesota senator
+                                and former presidential candidate wrote.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/elon-musk.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Elon Musk Says About 1,200 Ventilators Ready for Distribution This Week</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                The Tesla and SpaceX boss said he expects to have an estimated 1,200 ventilators ready
+                                to distribute from this week but noted that "getting them delivered, installed &
+                                operating is the harder part."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/kelly-loeffler-coronavirus-stock-trading-democrats-senate.webp"
+                            alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Senator Accused of COVID-19 Insider Trading Says Democrats Are Playing
+                                    Politics</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                Senator Kelly Loeffler, who sold millions of dollars in stocks after a classified
+                                COVID-19 briefing in January, said Democrats were engaging in politics as usual by
+                                voting down a proposed coronavirus stimulus package.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/new-york-coronavirus-update-cases-deaths.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">NYC Coronavirus Cases Surpass 10K, Governor Calls Density Level
+                                    'Destructive'</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                New York Governor Andrew Cuomo said the city had to develop an "immediate plan" to
+                                reduce density.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/barack-obama-joe-biden.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Biden Says He Has Spoken With Obama About Potential Running Mates:
+                                    Reports</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                The former vice president told donors that vetting of possible running mates would begin
+                                within the next few weeks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/usns-mercy.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Navy Hospital Ship USNS Mercy Deployed to L.A. to Help COVID-19 Patients</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                The vessel, which has been docked in San Diego, will now make its way up the West Coast
+                                to provide 1,000 beds.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/tokyo-2020-coronavirus.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">Japan's PM Says 'We May Have No Option' but to Consider Postponing
+                                    Olympics</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                Tokyo Olympics organizers and the IOC are under mounting pressure to postpone the Games
+                                due the coronavirus outbreak.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left float-left mt-1">
+                        <img class="float-left" src="./images/closed-apple-store.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">List of Companies Paying Their Employees During Coronavirus Closures</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                Major retailers including Apple, GAP and Sephora will continue to pay their employees
+                                while their stores are closed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between more-stories">
+                    <div class="card-img-left mt-1">
+                        <img class="float-left" src="./images/closed-apple-store.webp" alt="times square">
+                    </div>
+                    <div class="card-block d-flex flex-column">
+                        <div class="card-title mx-1 p-0">
+                            <h5 class="">
+                                <a href="#">List of Companies Paying Their Employees During Coronavirus Closures</a>
+                            </h5>
+                        </div>
+                        <div class="card-body mx-1 p-0">
+                            <p>
+                                Major retailers including Apple, GAP and Sephora will continue to pay their employees
+                                while their stores are closed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <h5>CULTURE & TRAVEL</h5>
+                <div class="card featured-story">
+                    <img class="card-img-top" src="./images/spanish-steps-italy.webp" alt="corona-virus-china">
+                    <div class="card-block">
+                        <h4><a href="#">Social Distancing Around the World in Photos</a>
+                        </h4>
+                        <p>From Rome's desolate Spanish Steps to New York's deserted Times Square, take a look at some
+                            of the world's busiest landmarks that are all now but eerily empty.</p>
+                    </div>
+                </div>
+                <div class="card featured-story">
+                    <img class="card-img-top" src="./images/breakfast-lunch-dinner.webp" alt="corona-virus-china">
+                    <div class="card-block">
+                        <h4><a href="#">Wanderlust Stricken? The 10 Best Travel TV Shows to Watch Now</a>
+                        </h4>
+                        <p>Travelers can still explore the world while binge-watching these travel TV shows in home
+                            isolation. Thanks to streaming services, we can virtually send ourselves to nearly any and
+                            every part of the planet in just a few clicks.</p>
+                    </div>
+                </div>
+                <div class="card featured-story">
+                    <img class="card-img-top" src="./images/taj-mahal.webp" alt="corona-virus-china">
+                    <div class="card-block">
+                        <h4><a href="#">You Can Still See the World With These Virtual Tours</a>
+                        </h4>
+                        <p>What to do with the free time available when trips to the movies, a museum or the theater are
+                            out of the question? Here is a list of museums and other popular tourist attractions that
+                            have entire collections or performances available online.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-7 col-lg-6">
+                <h5>LATEST NEWS</h5>
+                <div class="card d-flex flex-row justify-content-between latest-news">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/english-game-ending.webp" alt="times square">
+                    </div>
+                    <div class="card-title mx-1 p-0">
+                        <h5>
+                            <a href="#">'The English Game' on Netflix Ending Explained: What Happened at the End?</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between latest-news">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/groceries.webp" alt="times square">
+                    </div>
+                    <div class="card-title mx-1 p-0">
+                        <h5>
+                            <a href="#">California Coronavirus Lockdown: Grocery Store Hours and Essential Services</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between latest-news">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/coronavirus-us.webp" alt="times square">
+                    </div>
+                    <div class="card-title mx-1 p-0">
+                        <h5>
+                            <a href="#">What Does a Furlough From Work Mean?</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between latest-news">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/us-unemployment-jobs-economy-recession-coronavirus.webp" alt="times square">
+                    </div>
+                    <div class="card-title mx-1 p-0">
+                        <h5>
+                            <a href="#">Workers Laid Off Amid Coronavirus Face Anxiety, Financial Distress</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="card d-flex flex-row justify-content-between latest-news">
+                    <div class="card-img-left mt-1">
+                        <img src="./images/baffin-island-canada.webp" alt="times square">
+                    </div>
+                    <div class="card-title mx-1 p-0">
+                        <h5>
+                            <a href="#">Fragment of Ancient Lost Continent Revealed Off the Coast of Canada</a>
+                        </h5>
+                    </div>
+                </div>
+              
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <!--first row end-->
+    </div>
+    <!--containerfluid end-->
+
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/687ce9f8b2.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

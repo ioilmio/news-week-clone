@@ -1,1 +1,3 @@
 node_modules
+.stickler.yml
+stylelint.config.js
