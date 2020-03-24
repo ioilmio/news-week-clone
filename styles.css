@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700,900|Roboto+Condensed:400,600,700,900&display=swap");
 * {
-  /* border:1px solid green; */
+  border:1px solid green;
   font-size: 12px;
 }
 
@@ -124,17 +124,66 @@ a {
   background-color: #f4f5f6;
 }
 
+.separator {
+  border-bottom: 0.5px solid #cecece;
+}
+
 .magazine-title {
   background-color: red;
   color: white;
-  width: 25%;
-  height: 2em;
+  width: auto;
   font-weight: 900;
 }
 
 .second-magazine-title {
   color: red;
   font-weight: 900;
+  width: auto;
 }
 
+.overlay {
+  position: relative;
+  bottom:27px;
+  background-color:red;
+  width: fit-content;
+  color: #fff;
+}
+.card-editor img {
+  position: absolute;
+}
 
+.overlay-2 {
+  position: relative;
+  bottom:33px;
+  background-color: hsla(0, 0%, 81%, 0.9) ;
+  width: fit-content;
+  color: red;
+
+}
+
+.apix {
+  color: red;
+  font-size: 2rem;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.red {
+  background-color: red;
+  color: #fff;
+}
+.footer-logo {
+  width:10%;
+  height: auto;
+}
+.footer-logo img {
+  width: 100%;
+}
+
+.footer-links {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
