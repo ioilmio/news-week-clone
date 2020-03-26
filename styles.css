@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: #0b265e;
+  /* background-color: #0b265e; */
 
   /* height: 300vh; */
 }
 
 .my-nav {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   position: sticky;
 }
@@ -157,7 +157,7 @@ a {
   text-decoration: none;
 }
 
-.opinion a {
+.opinion  {
   font-size: 1.2em;
   font-weight: 700;
 }
@@ -167,6 +167,7 @@ a {
   border-bottom: #cecece 1px solid;
   padding: 0.5rem 0.5rem;
   margin-top: 1rem;
+  font-size: 2rem;
 }
 .opinion img {
   margin-right: 0.5rem;
@@ -222,6 +223,10 @@ a {
   border-bottom: 0.3px solid #cecece;
 }
 
+.more-storier a,h5 {
+  font-size: 1em;
+}
+
 .latest-news {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -229,17 +234,14 @@ a {
   border-bottom: 0.3px solid #cecece;
 }
 
+
 .latest-news a:hover {
   color: red;
   text-decoration: none;
 }
 .latest-news a {
-  font-size: 1.5rem;
-  margin-left: 1rem;
-}
-
-.newsletter div {
-  background-color: #f4f5f6;
+  font-size: 1rem;
+  /* margin-left: 1rem; */
 }
 
 .separator {
@@ -266,6 +268,7 @@ a {
   width: fit-content;
   color: #fff;
 }
+
 .card-editor img {
   position: absolute;
 }
