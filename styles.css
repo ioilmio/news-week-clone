@@ -5,12 +5,128 @@
 }
 
 body {
-  /* background-color: #f4f5f7; */
+  background-color: #0b265e;
+
+  /* height: 300vh; */
+}
+
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 2000;
+  width: 100%;
+  height: auto;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 8rem;
+}
+.logo-sticky {
+  height: 2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+#header-sign-in {
+  color: white;
+  background-color: transparent;
+  font-size: 1.5rem;
+}
+
+#header-subscribe {
   background-color: #fff;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.header-list a {
+  color: black;
+  text-decoration: none;
 }
 .n-icon {
   width: 29px;
   height: 29px;
+}
+
+.fa-bars {
+  color: #fff;
+}
+.my-nav {
+  background-color: red;
+  /* font-size: 2rem; */
+}
+
+/* .my-nav-header {
+  background-color: rgb(38, 0, 255);
+  z-index: 2000;
+  height: 6em;
+  width: 100%;
+  position: absolute;
+  top: 0;
+} */
+
+.header-logo-sm {
+  height: 3rem;
+}
+
+.header-logo {
+  height: 5.1rem;
+}
+
+/* header ul li  {
+  display: inline-block;
+  background-color: #fff;
+  color: black;
+  list-style: none;
+  width: 100%;
+} */
+
+.logo {
+  font-size: 2.8rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.toggler {
+  color: #fff;
 }
 
 .top-story {
@@ -78,7 +194,7 @@ a {
 .card-footer img {
   width: 5rem;
   position: relative;
-  bottom:20px
+  bottom: 20px;
 }
 
 .card-footer {
@@ -100,17 +216,18 @@ a {
   font-size: 1.5rem;
 }
 .more-stories {
-  padding-top: 1.5rem ;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   border-top: 0.3px solid #cecece;
   border-bottom: 0.3px solid #cecece;
 }
 
 .latest-news {
-  padding-top: 1.5rem ;
+  padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   border-top: 0.3px solid #cecece;
-  border-bottom: 0.3px solid #cecece;}
+  border-bottom: 0.3px solid #cecece;
+}
 
 .latest-news a:hover {
   color: red;
@@ -121,7 +238,7 @@ a {
   margin-left: 1rem;
 }
 
-.newsletter div{
+.newsletter div {
   background-color: #f4f5f6;
 }
 
@@ -144,8 +261,8 @@ a {
 
 .overlay {
   position: relative;
-  bottom:27px;
-  background-color:red;
+  bottom: 27px;
+  background-color: red;
   width: fit-content;
   color: #fff;
 }
@@ -155,11 +272,10 @@ a {
 
 .overlay-2 {
   position: relative;
-  bottom:33px;
-  background-color: hsla(0, 0%, 81%, 0.9) ;
+  bottom: 33px;
+  background-color: hsla(0, 0%, 81%, 0.9);
   width: fit-content;
   color: red;
-
 }
 
 .apix {
@@ -176,7 +292,7 @@ a {
   color: #fff;
 }
 .footer-logo {
-  width:10%;
+  width: 10%;
   height: auto;
 }
 .footer-logo img {
