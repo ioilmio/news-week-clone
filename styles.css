@@ -4,10 +4,8 @@
   font-size: 12px;
 }
 
-body {
-  /* background-color: #0b265e; */
-
-  /* height: 300vh; */
+h5 {
+  font-weight: 900;
 }
 
 .my-nav {
@@ -15,6 +13,7 @@ body {
   /* justify-content: space-between; */
   align-items: center;
   position: sticky;
+  background-color: red;
 }
 
 .header {
@@ -90,19 +89,6 @@ body {
 .fa-bars {
   color: #fff;
 }
-.my-nav {
-  background-color: red;
-  /* font-size: 2rem; */
-}
-
-/* .my-nav-header {
-  background-color: rgb(38, 0, 255);
-  z-index: 2000;
-  height: 6em;
-  width: 100%;
-  position: absolute;
-  top: 0;
-} */
 
 .header-logo-sm {
   height: 3rem;
@@ -111,14 +97,6 @@ body {
 .header-logo {
   height: 5.1rem;
 }
-
-/* header ul li  {
-  display: inline-block;
-  background-color: #fff;
-  color: black;
-  list-style: none;
-  width: 100%;
-} */
 
 .logo {
   font-size: 2.8rem;
@@ -131,6 +109,11 @@ body {
 
 .top-story {
   margin-bottom: 1.5rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
 }
 
 .card {
@@ -148,7 +131,7 @@ a {
   color: black;
   text-decoration: none;
   font-family: "Roboto Condensed";
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -157,7 +140,7 @@ a {
   text-decoration: none;
 }
 
-.opinion  {
+.opinion {
   font-size: 1.2em;
   font-weight: 700;
 }
@@ -216,6 +199,19 @@ a {
   margin-top: 1em;
   font-size: 1.5rem;
 }
+
+.newsletter > div {
+  background-color: rgb(214, 214, 214);
+}
+
+.newsletter button {
+  margin: 1rem auto;
+}
+
+.newsletter a {
+  margin: auto;
+}
+
 .more-stories {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -223,7 +219,8 @@ a {
   border-bottom: 0.3px solid #cecece;
 }
 
-.more-storier a,h5 {
+.more-storier a,
+h5 {
   font-size: 1em;
 }
 
@@ -233,7 +230,6 @@ a {
   border-top: 0.3px solid #cecece;
   border-bottom: 0.3px solid #cecece;
 }
-
 
 .latest-news a:hover {
   color: red;
