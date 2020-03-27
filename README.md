@@ -1,41 +1,31 @@
 # Project Name
 
-> One paragraph statement about the project.
+The aim of this project is to get familiar with Bootstrap class and grid system
+to style and render the different element on a page to display.
+This is my very first project using it and it was pretty complicated at first but nmow i feel pretty comfortable using it
 
-![screenshot](./app_screenshot.png)
+![image](https://user-images.githubusercontent.com/51195150/77785009-cb197700-705b-11ea-832d-f47ee549d9fd.png)
 
-Additional description about the project and its features.
+-Used grid system of 12 column to separate the sections from each other 
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
+- Bootstrap 4.4
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/ioilmio/news-week-clone/tree/solo-news)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+Just a device with internet connection
 
 
 
@@ -43,21 +33,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@ioilmio](https://github.com/ioilmio)
+- Twitter: [@ioilmio](https://twitter.com/ioilmio)
+- Linkedin: [Illuminato Salvatore](https://linkedin.com/in/illuminato-salvatore)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ioilmio/news-week-clone/issues).
 
 ## Show your support
 
