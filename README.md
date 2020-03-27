@@ -1,8 +1,8 @@
 # Project Name
 
-The aim of this project is to get familiar with Bootstrap class and grid system
-to style and render the different element on a page to display.
-This is my very first project using it and it was pretty complicated at first but nmow i feel pretty comfortable using it
+The aim of this project is to get familiar with Bootstrap classes and grid system
+to style and display different element on a page.
+This is my very first project using it and it was pretty complicated at first but now i feel pretty comfortable using it.
 
 ![image](https://user-images.githubusercontent.com/51195150/77785009-cb197700-705b-11ea-832d-f47ee549d9fd.png)
 
@@ -51,7 +51,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- My Micorverse Teammate that supports me
 
 ## 📝 License
 
