@@ -9,8 +9,9 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./images/apple-touch-icon.png">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,900|Roboto+Condensed:400,700,900&display=swap"
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -55,7 +56,7 @@
             <i class="fas fa-bars fa-2x ml-5"></i>
         </div>
     </div>
-    <div class="header-list d-none d-lg-flex">
+    <div class="header-list d-none d-lg-flex align-items-center">
         <div><a href="#">U.S.</a> </div>
         <div><a href="#">World</a> </div>
         <div><a href="#">Sport</a> </div>
@@ -68,7 +69,7 @@
         <div><a href="#">Weather</a> </div>
         <div>
             <form action="#">
-                <i class="fas fa-search"></i><input type="search" class="d-inline-block ml-4" name="search" id="search" placeholder="search">
+                <i class="fas fa-search"></i><input type="search" class="d-inline-block ml-2" name="search" id="search" placeholder="search">
             </form>
         </div>
     </div>
@@ -81,7 +82,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-5 col-lg-3">
                 <div class="card featured-story">
-                    <h5>FEATURED STORY</h5>
+                    <h4>FEATURED STORY</h4>
                     <img class="card-img-top" src="./images/coronavirus.webp" alt="donald trump">
                     <div class="card-block">
                         <h4><a href="#">COVID-19 Pandemic Could Cost U.S. $7 Trillion, Professor Estimates</a></h4>
@@ -199,7 +200,7 @@
 
             <div class="col-sm-12 col-md-7 col-lg-6">
                 <div class="card top-story">
-                    <h5>TOP STORY</h5>
+                    <h4>TOP STORY</h4>
                     <img class="card-img-top" src="./images/donald-trump.webp" alt="donald trump">
                     <div class="card-block">
                         <h4><a href="#">Trump Announces Activation of the National Guard in Worst-Hit COVID-19
@@ -210,7 +211,7 @@
                     </div>
                 </div>
 
-                <h5>CULTURE & TRAVEL</h5>
+                <h4>CULTURE & TRAVEL</h4>
                 <div class="col-sm-12 col-md-12 col-lg-12 d-md-flex">
                     <div class="card m-2">
                         <img class="card-img-top" src="./images/spanish-steps-italy.webp" alt="corona-virus-china">
@@ -247,7 +248,7 @@
                     </div>
                 </div>
 
-                <h5>MORE STORIES</h5>
+                <h4>MORE STORIES</h4>
                 <div class="col-sm-12 col-md-12 col-lg-12">
 
                     <div class="card d-flex flex-row justify-content-between more-stories">
@@ -479,7 +480,7 @@
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-3">
-                <h5>OPINION</h5>
+                <h4>OPINION</h4>
                 <div class="card d-flex flex-row opinion">
                     <div class="card-img-left">
                         <img src="./images/forman-andrew.webp" alt="Andrew Forman">
@@ -529,7 +530,7 @@
                 </div>
 
                 <hr class="my-5">
-                <h5>THE DEBATE</h5>
+                <h4>THE DEBATE</h4>
                 <div class="card d-flex flex-row debate red-debate">
                     <div class="card-img-left">
                         <img src="./images/business-coronavirus.webp" class="img-fluid" alt="empty parking">
@@ -570,7 +571,7 @@
                 </div>
 
                 <hr class="my-5">
-                <h5>LATEST NEWS</h5>
+                <h4>LATEST NEWS</h4>
                 <div class="card d-flex flex-row text-no-wrap latest-news">
                     <div class="card-img-left mt-1">
                         <img src="./images/english-game-ending.webp" alt="times square">
@@ -647,10 +648,8 @@
                             <h4 class="m-2">SIGN UP FOR OUR NEWSLETTER</h4>
                         </div>
                         <div class="ml-2 d-flex flex-column">
-                            <button class="w-50">
-                                <a class="btn" href="#">SIGN UP</a>
-                            </button>
-                            <a class="h4" href="#">Update your preferences &gt;&gt;</a>
+                                <a class="btn btn-sm bg-dark text-white" href="#">SIGN UP &gt;</a>
+                                <a class="h4" href="#">Update your preferences &gt;&gt;</a>
                         </div>
                     </div>
                 </div>
@@ -1254,7 +1253,7 @@
                 <hr>
                 <div class="card d-flex flex-row ">
                     <div class="card-img-left mr-5 ">
-                        <img class="sm-image mr-5" src="./images/chile.webp" alt="Andrew Forman">
+                        <img class="sm-image" src="./images/chile.webp" alt="Andrew Forman">
                     </div>
                     <div class="card-block">
                         <div class="card-text">
@@ -1499,17 +1498,14 @@
 
     <!--containerfluid end-->
 
-</body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 <script src="https://kit.fontawesome.com/687ce9f8b2.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

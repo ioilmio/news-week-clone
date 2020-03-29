@@ -2,11 +2,13 @@
 
 The aim of this project is to get familiar with Bootstrap classes and grid system
 to style and display different element on a page.
-This is my very first project using it and it was pretty complicated at first but now i feel pretty comfortable using it.
+This is my very first project using it and it was bit complicated at first but now i feel pretty comfortable using it.
 
 ![image](https://user-images.githubusercontent.com/51195150/77785009-cb197700-705b-11ea-832d-f47ee549d9fd.png)
 
 -Used grid system of 12 column to separate the sections from each other 
+-2 Navbar one on top of large device ,the other on all size in a sticky position
+-modular cards that resize without media queries
 
 ## Built With
 
@@ -16,7 +18,7 @@ This is my very first project using it and it was pretty complicated at first bu
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ioilmio/news-week-clone/tree/solo-news)
+[Live Demo Link](https://rawcdn.githack.com/ioilmio/news-week-clone/tree/solo-news)
 
 
 ## Getting Started
@@ -51,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- My Micorverse Teammate that supports me
+- My Microverse Teammate that supports me
 
 ## 📝 License
 
