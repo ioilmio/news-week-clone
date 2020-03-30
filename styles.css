@@ -23,8 +23,6 @@ h5 {
   overflow: hidden;
 }
 
-
-
 .header {
   position: absolute;
   top: 0;
@@ -44,15 +42,6 @@ h5 {
   margin-top: 5rem;
   width: auto;
   border-bottom: 1px solid rgb(223, 223, 223);
-}
-
-.header-list a:hover{
-  color: red;
-}
-
-.header-list a {
-  color: black;
-  text-decoration: none;
 }
 
 .date-weather {
@@ -102,6 +91,11 @@ a {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.header-list a {
+  color: black;
+  text-decoration: none;
 }
 
 a:hover {
@@ -159,6 +153,10 @@ h5 {
 
 .latest-news a {
   font-size: 1rem;
+}
+
+.header-list a:hover {
+  color: red;
 }
 
 .latest-news a:hover {
@@ -324,9 +322,11 @@ h5 {
   text-decoration: none;
   color: black;
 }
+
 .footer-icons {
   color: #cecece;
 }
+
 .footer {
   background-color: #f2f2f2;
 }
