@@ -5,10 +5,17 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 12px;
+  overflow-x: hidden;
 }
 
 h5 {
   font-weight: 900;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: medium;
+  color: #a7a7a7;
 }
 
 .my-nav {
@@ -42,6 +49,17 @@ h5 {
   margin-top: 5rem;
   width: auto;
   border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.search {
+  height: 3rem;
+  border: none;
+  text-align: center;
+}
+
+.fa-search {
+  position: relative;
+  right: 4rem;
 }
 
 .date-weather {
@@ -120,16 +138,13 @@ a:hover {
   height: 5.1rem;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 2.8rem;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}
-
 .top-story {
   margin-bottom: 1.5rem;
 }
+
+/* .culture {
+  width: 100%;
+} */
 
 .card {
   background-color: #fff;
@@ -327,6 +342,6 @@ h5 {
   color: #cecece;
 }
 
-.footer {
+.footer-1 {
   background-color: #f2f2f2;
 }
