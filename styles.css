@@ -5,7 +5,6 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 12px;
-  overflow-x: hidden;
 }
 
 h5 {
@@ -60,6 +59,7 @@ h5 {
 .fa-search {
   position: relative;
   right: 4rem;
+  color: #cecece;
 }
 
 .date-weather {
@@ -90,13 +90,13 @@ h5 {
   justify-content: space-between;
 }
 
-#header-sign-in {
+.header-sign-in {
   color: white;
   background-color: transparent;
   font-size: 1.5rem;
 }
 
-#header-subscribe {
+.header-subscribe {
   background-color: #fff;
   color: red;
   font-size: 1.5rem;
@@ -141,10 +141,6 @@ a:hover {
 .top-story {
   margin-bottom: 1.5rem;
 }
-
-/* .culture {
-  width: 100%;
-} */
 
 .card {
   background-color: #fff;
@@ -220,6 +216,7 @@ h5 {
   width: 5rem;
   position: relative;
   bottom: 20px;
+  z-index: 5;
 }
 
 .card-footer {
@@ -246,15 +243,11 @@ h5 {
 .more-stories {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-top: 0.3px solid #cecece;
-  border-bottom: 0.3px solid #cecece;
 }
 
 .latest-news {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-top: 0.3px solid #cecece;
-  border-bottom: 0.3px solid #cecece;
 }
 
 .separator {
@@ -305,6 +298,8 @@ h5 {
 
 .sign-up {
   background-color: #fff;
+  border: 1px solid #cecece;
+  margin: 0 auto;
 }
 
 .subscribe {
@@ -314,6 +309,11 @@ h5 {
 .red {
   background-color: red;
   color: #fff;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-logo {
@@ -328,9 +328,10 @@ h5 {
 .footer-links {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-left: 0.5rem;
   color: gray;
   padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #cecece;
 }
 
 .footer-links:hover {
