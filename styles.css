@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-size: 12px;
 }
+.full {
+  max-width: 1024px;
+}
 
 h5 {
   font-weight: 900;
